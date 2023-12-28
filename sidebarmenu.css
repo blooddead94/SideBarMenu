@@ -1,0 +1,306 @@
+@import url(reset.css);
+
+
+/* Header - Commenced */
+
+.nav-bar {
+  display: flex;
+  position: relative;
+  padding: 7px 0 7px 7px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(132, 149, 255);
+  box-shadow: rgb(97, 220, 20) 0 5px 12px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: rgba(5, 13, 251, 0.7);
+
+}
+
+/* Hover - Header - Menu */
+.nav-bar a:hover {
+  color: rgb(11, 245, 237);
+  transition: 0.7s;
+}
+
+.ulka {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Header - Completed */
+
+
+
+
+
+/* SideBar - Commenced */
+
+.sidebar {
+  padding: 0 0 0 14px;
+  display: flex;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  width: 190px;
+  background: yellowgreen;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: .2s linear;
+}
+
+.sidebar a {
+  text-decoration: none;
+  transition: yellow .2;
+  color: rgb(1, 55, 55, 0.7);
+  display: inline-flex;
+  gap: 15px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-shadow: rgb(234, 255, 3) 0 3px 1px;
+}
+
+.sidebar:hover {
+  width: 300px;
+}
+
+.wrap {
+  padding-left: 70px;
+  transition: .2s linear;
+}
+
+.sidebar:hover+.wrap {
+  padding-left: 300px;
+}
+
+/* SideBar - Completed */
+
+/* SideBar - Icon1 - Commenced */
+
+
+.trust {
+  display: block;
+  padding: 5px 20px;
+}
+
+.trust span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.trust svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.trust:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* SideBar - Icon1 - Completed */
+
+
+/* Sidebar - Icon2 - Commenced */
+
+.feedback {
+  display: block;
+  padding: 5px 20px;
+}
+
+.feedback span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.feedback svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.feedback:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon2 - Completed */
+
+/* Sidebar - Icon3 - Commenced */
+
+.miracle {
+  display: block;
+  padding: 5px 20px;
+}
+
+.miracle span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.miracle svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.miracle:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon3 - Completed */
+
+
+/* Sidebar - Icon4 - Commenced */
+
+.unstoppable {
+  display: block;
+  padding: 5px 20px;
+}
+
+.unstoppable span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.unstoppable svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.unstoppable:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon4 - Completed */
+
+/* Sidebar - Icon5 - Commenced */
+
+.commenced {
+  display: block;
+  padding: 5px 20px;
+}
+
+.commenced span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.commenced svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.commenced:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon5 - Completed */
+
+/* Sidebar - Icon6 - Commenced */
+
+.leader {
+  display: block;
+  padding: 5px 20px;
+}
+
+.leader span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.leader svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.leader:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon6 - Completed */
+
+/* Sidebar - Icon7 - Commenced */
+
+.friendship {
+  display: block;
+  padding: 5px 20px;
+}
+
+.friendship span {
+  border: 3px solid rgb(245, 245, 245);
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.friendship svg {
+  width: 35px;
+  height: 35px;
+  fill: aqua;
+  transform: rotate(45deg);
+  transition: .2s linear;
+}
+
+
+.friendship:hover svg {
+  transform: rotate(45deg) scale(1.4);
+}
+
+/* Sidebar - Icon7 - Completed */
