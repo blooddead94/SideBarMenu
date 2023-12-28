@@ -48,7 +48,8 @@
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
   justify-content: center;
   flex-direction: column;
-  width: 190px;
+  width: 95px;
+  overflow: hidden;
   background: yellowgreen;
   position: absolute;
   top: 0;
@@ -75,7 +76,7 @@ nav ul li a {
 }
 
 .wrap {
-  padding-left: 70px;
+  padding-left: 95px;
   transition: .2s linear;
 }
 
